@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1c1a1a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+header h1 {
+    font-size:70px;
+    background-image: linear-gradient(to right, #f21680 0%, #3532f2 100%);
+    -webkit-background-clip: text; /* Применение фона к тексту */
+    background-clip: text; /* Применение фона к тексту */
+    color: transparent; /* Скрываем оригинальный текст */
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.account-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    background-color: #8d42be;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, rgba(214, 40, 173, 1), #8d42be);
+    color: #fff;
+}
+
+nav {
+    background-color: #2e2e2e;
+    padding: 10px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: rgb(232, 44, 188);
+}
+
+.latest-reviews {
+    margin: 20px;
+}
+
+.review {
+    background-color: #cccbcb;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+strong {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
