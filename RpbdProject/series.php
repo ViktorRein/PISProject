@@ -6,7 +6,7 @@
     <title>Список сериалов</title>
     <link rel="stylesheet" href="css/games.css">
 </head>
-<body>
+<body style = "background-image: linear-gradient(to right, #e1526a 2%, #e458ae 60%);">
 <header>
         <h1>GeekHub</h1>
         <div class="account-button">
