@@ -19,7 +19,7 @@
     }
 </script>
 </head>
-<body>
+<body style="background-image: linear-gradient(to right, #8d42be, rgba(214, 40, 173, 0.6));">
     <header>
         <h1>GeekHub</h1>
         <div class="account-button">
