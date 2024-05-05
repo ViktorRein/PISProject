@@ -24,11 +24,10 @@
         <input type="password" id="password" name="password">
 
         <button type="submit" name="submit">Авторизоваться</button>
-
-        <div class="login-link">
+    </form>
+            <div class="login-link">
         <p>Зарегистрироваться <a href="registr.php">Регистрация</a></p>
       </div>
-    </form>
 </div>
 </body>
 </html>
