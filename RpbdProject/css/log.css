@@ -1,26 +1,33 @@
-/* Стили для формы входа */
-body {
-    background-color: #f2f2f2;
-    font-family: Arial, sans-serif;
+body{
+    background-color: #1c1a1a;
 }
-
 form {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-image: linear-gradient(to right,rgba(164, 32, 133, 1), rgba(82, 73, 184, 1));
     border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
     text-align: center;
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+p{
+    color: #fff;
 }
 
 input[type="text"],
+input[type="email"],
 input[type="password"] {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
@@ -29,28 +36,31 @@ input[type="password"] {
 
 button[type="submit"] {
     display: block;
-    width: 100%;
+    width: 40%;
     padding: 10px;
-    background-color: #4caf50;
+    background-color: #363636;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: 30%;
 }
 
 button[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #2e2e2e;
 }
 
-a {
-    display: block;
+.login-link {
     text-align: center;
-    margin-bottom: 10px;
-    color: #4caf50;
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #8915ef;
     text-decoration: none;
 }
 
-a:hover {
+.login-link a:hover {
     text-decoration: underline;
 }
 
@@ -61,17 +71,4 @@ a:hover {
     border-radius: 5px;
     color: #f44336;
     background-color: #ffebee;
-}
-.login-link {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.login-link a {
-    color: #4caf50;
-    text-decoration: none;
-}
-
-.login-link a:hover {
-    text-decoration: underline;
 }
